@@ -1,0 +1,16 @@
+﻿  11.10.cpp
+  Linkedlist.cpp
+C:\Users\Admin\source\repos\11.10\11.10\Linkedlist.h(14,28): error C2512: Node: нет подходящего конструктора по умолчанию
+C:\Users\Admin\source\repos\11.10\11.10\Node.h(2,7): message : см. объявление "Node"
+C:\Users\Admin\source\repos\11.10\11.10\Linkedlist.h(17,33): error C2665: "Node::Node": ни одна перегруженная функция не может преобразовать все типы аргументов
+C:\Users\Admin\source\repos\11.10\11.10\Node.h(11,1): message : может быть "Node::Node(Node &&)"
+C:\Users\Admin\source\repos\11.10\11.10\Linkedlist.h(17,33): message : "Node::Node(Node &&)": невозможно преобразовать аргумент 1 из "int" в "Node &&"
+C:\Users\Admin\source\repos\11.10\11.10\Linkedlist.h(17,34): message : Причина: невозможно преобразовать "int" в "Node"
+C:\Users\Admin\source\repos\11.10\11.10\Linkedlist.h(17,34): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\Admin\source\repos\11.10\11.10\Node.h(11,1): message : или       "Node::Node(const Node &)"
+C:\Users\Admin\source\repos\11.10\11.10\Linkedlist.h(17,33): message : "Node::Node(const Node &)": невозможно преобразовать аргумент 1 из "int" в "const Node &"
+C:\Users\Admin\source\repos\11.10\11.10\Linkedlist.h(17,34): message : Причина: невозможно преобразовать "int" в "const Node"
+C:\Users\Admin\source\repos\11.10\11.10\Linkedlist.h(17,34): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\Admin\source\repos\11.10\11.10\Linkedlist.h(17,33): message : при попытке сопоставить список аргументов "(int)"
+  Node.cpp
+  Создание кода...
